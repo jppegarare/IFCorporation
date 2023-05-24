@@ -4,7 +4,35 @@ body {
     height: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-  
+    
   }
   
-  
+  main{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    justify-content: space-evenly;
+    
+}
+
+.card{
+    margin: 50px;
+    background-color: rgb(237, 245, 242);
+    border: 1px solid #000000;
+    display: inline-block;
+    overflow: hidden;
+    height: 250px;
+    width: 250px;
+
+}
+
+.destaque{
+  margin: 30px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #000000;
+  display: inline-block;
+  overflow: hidden;
+  height: 70%;
+  width: 70%;
+
+}

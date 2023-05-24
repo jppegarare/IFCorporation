@@ -15,7 +15,7 @@ class Produto
     {
 
       return `
-      <h3>Produto: ${this.nome}</h1>
+      <h3>${this.nome}</h1>
       <p>Data de cadastro: ${this.dCadastro}</p>
       <p>${this.descricao}</p>
       <p>preço: ${this.preco}</p>
@@ -34,7 +34,7 @@ class ProdutoDestaque extends Produto
   mostrar_destaque()
   {
     return `
-    <h1>Produto em Destaque: ${this.nome}</h1>
+    <h1> ${this.nome}</h1>
     <p>Data de cadastro: ${this.dCadastro}</p>
     <p>${this.descricao}</p>
     <p>preço: ${this.preco}</p>
