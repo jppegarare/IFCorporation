@@ -56,8 +56,6 @@ const produto2 = new Produto ("Fone de Ouvido Havit HV-H2002d", "18/11/2019", "U
 const produto3 = new Produto ("Livro 1984", "21/06/2012", "Um Livro de Ficção com uma crítica real por trás de sua história", "R$ 19,99")
 
 
-// console.log(produto.mostrarProduto()) 
-
 
 
 
