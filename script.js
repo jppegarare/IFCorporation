@@ -16,9 +16,9 @@ class Produto
 
       return `
       <h3>${this.nome}</h1>
+      <p>${this.preco}</p>
       <p>Data de cadastro: ${this.dCadastro}</p>
       <p>${this.descricao}</p>
-      <p>preço: ${this.preco}</p>
 
       `    }
 }
@@ -35,10 +35,10 @@ class ProdutoDestaque extends Produto
   {
     return `
     <h1> ${this.nome}</h1>
+    <img src="${this.img}"></img>
+    <p>${this.preco}</p>
     <p>Data de cadastro: ${this.dCadastro}</p>
     <p>${this.descricao}</p>
-    <p>preço: ${this.preco}</p>
-    <img src="${this.img}"></img>
     `
   }
 

@@ -1,9 +1,15 @@
+html{
+  margin: auto;
+  padding: auto;
+}
+
 body {
     background: #CCC;
     width: 100%;
     height: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+
     
   }
   
@@ -16,7 +22,7 @@ body {
 }
 
 .card{
-    margin: 50px;
+    margin: 5px;
     background-color: rgb(237, 245, 242);
     border: 1px solid #000000;
     display: inline-block;
@@ -27,7 +33,7 @@ body {
 }
 
 .destaque{
-  margin: 30px;
+  margin: 5px;
   background-color: rgb(255, 255, 255);
   border: 1px solid #000000;
   display: inline-block;
